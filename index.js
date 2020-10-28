@@ -1,26 +1,17 @@
 #!/usr/bin/env node
-const {name, version, description} = require('./package.json');
 const chalk = require('chalk')
-
-console.log(`
-    ${name}
-    ${version}
-    ${description}
-`)
-
-
 
 console.clear();
 console.log(`
 
-    Tuplesxyz - (ʘ‿ʘ)╯
+    ${`${chalk.whiteBright.bgBlueBright.bold(`Tuplesxyz`)} - ${chalk.bold(`λ`)}`}
 
-    I’m just another random stranger on the 🌐
+    ${chalk.dim(`I’m just another random stranger on the 🌐
     I do a bit of coding, designing and reading.
-    I also enjoy learning new things.
+    I also enjoy learning new things.`)}
 
-    🐦 Twitter: https://twitter.com/tuplesxyz
-    👨‍💻 Github: https://github.com/tuplesxyz
-    📝 blog: https://tuples.xyz
+    🐦 ${chalk.hex(`#1da1f2`).bold(`Twitter`)}: ${chalk.dim(`https://twitter.com/tuplesxyz`)}
+    👨‍💻 ${chalk.hex(`#fdaaaa`).bold(`Github`)}: ${chalk.dim(`https://github.com/tuplesxyz`)}
+    📝 ${chalk.hex(`#ffffff`).bold(`Blog`)}: ${chalk.dim(`https://tuples.xyz`)}
 
 `);
