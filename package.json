@@ -1,6 +1,6 @@
 {
     "name": "tuplesxyz",
-    "version": "1.0.1",
+    "version": "1.1.0",
     "description": "Get to Know tuplesxyz via `npx tuplesxyz`.",
     "bin": {
         "tuplesxyz": "index.js"
