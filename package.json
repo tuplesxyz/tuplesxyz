@@ -1,0 +1,7 @@
+{
+    "name": "tuplesxyz",
+    "version": "1.0.0",
+    "bin": {
+        "tuplesxyz": "index.js"
+    }
+}
