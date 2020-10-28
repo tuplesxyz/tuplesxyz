@@ -1,7 +1,8 @@
 #!/usr/bin/env node
+console.clear();
 console.log(`
 
-    Tuplesxyz
+    Tuplesxyz - (ʘ‿ʘ)╯
 
     I’m just another random stranger on the 🌐
     I do a bit of coding, designing and reading.
