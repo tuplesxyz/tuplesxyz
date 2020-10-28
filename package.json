@@ -1,7 +1,11 @@
 {
     "name": "tuplesxyz",
     "version": "1.0.1",
+    "description": "Get to Know tuplesxyz via `npx tuplesxyz`.",
     "bin": {
         "tuplesxyz": "index.js"
+    },
+    "dependencies": {
+        "chalk": "^4.1.0"
     }
 }

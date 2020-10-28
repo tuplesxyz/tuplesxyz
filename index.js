@@ -1,4 +1,15 @@
 #!/usr/bin/env node
+const {name, version, description} = require('./package.json');
+const chalk = require('chalk')
+
+console.log(`
+    ${name}
+    ${version}
+    ${description}
+`)
+
+
+
 console.clear();
 console.log(`
 
